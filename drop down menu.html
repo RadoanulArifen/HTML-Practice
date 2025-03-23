@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nev{
+            background-color:black;
+            padding: 1% 7%;
+            text-align: center;
+        }
+        .nev a{
+            text-decoration: none;
+            color: white;
+            font-size: 2rem;
+            padding: 10px 15px;
+        }
+        .dropdown-container{
+           display: inline; 
+           position: relative;
+        }
+
+        .dropdown-contant{
+           position: absolute;
+           top: 30px;
+           right: 0px;
+           background-color: black;
+           text-align: left;
+           min-width: 100px;
+           display: none;
+
+        }
+        .dropdown-contant a{
+            display: block;
+
+
+        }
+
+        .dropdown-contant a:hover{
+            background-color: gray;
+        }
+         .dropdown-container:hover .dropdown-contant{
+            display: block;
+         }
+    </style>
+</head>
+<body>
+    <div class="nev">
+       
+        <a href="#"> home</a>
+        <a href="#">menu</a>
+        
+        <div class="dropdown-container">
+            <a href="#"> totureal</a>
+            <div class="dropdown-contant">
+                <a href="#"> contact</a>
+                <a href="#">Details</a>
+            </div>
+        </div>
+        <a href="#"> about us</a>
+    </div>
+</body>
+</html>

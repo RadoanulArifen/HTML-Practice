@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow and custom Tooltip</title>\
+    <style>
+       div{
+        height: 100px;
+        width: 250;
+        background-color: green;
+        border: 2px solid tomato;
+        overflow:scroll;
+
+       }
+       .tooltip .toolplace{
+        
+        width: 150px;
+        background-color: blueviolet;
+        padding: 5px;
+        position:absolute;
+       
+        left: 30px;
+        color: white;
+        visibility: hidden;
+        
+
+
+
+
+
+       }
+       .tooltip:hover .toolplace{
+        visibility:visible;
+       }
+
+
+    </style>
+
+</head>
+<body>
+    <div>
+        Ipsum amet Et eos ea ut ut est accusam, et eos sea elitr dolor sadipscing, nonumy amet et eos ipsum erat sadipscing et ea. Dolor est est et diam lorem voluptua et. Amet voluptua et et sanctus rebum diam ipsum sit, ipsum stet sit dolor sit nonumy invidunt dolor. Ipsum dolor diam at lorem aliquyam sadipscing, nonumy sit vero sea diam ipsum stet tempor, gubergren erat justo elitr labore invidunt lorem et takimata no, sea voluptua et gubergren accusam at sed accusam. Dolor dolor est et vero sed ea takimata lorem, et ipsum clita at eos. Tempor sit ipsum ipsum dolor tempor aliquyam, tempor rebum et tempor lorem diam et. Clita vero gubergren et magna invidunt. Ut vero kasd dolores duo clita vero, ut nonumy sea amet clita sit vero, dolor labore ipsum ut tempor sit magna amet ipsum sit. Labore consetetur lorem rebum sed, dolores erat tempor magna et eirmod, et invidunt consetetur ipsum tempor sit, amet no invidunt amet eirmod gubergren erat et ut. Clita nonumy stet eos dolores. Gubergren justo stet eos ea dolores clita. Justo clita et aliquyam sit amet amet et, accusam nonumy lorem ea eos lorem eos, aliquyam rebum nonumy tempor ea dolore nonumy. Magna amet.stet sit takimata ipsum takimata vero. At sit sadipscing amet clita nonumy duo, rebum ipsum stet elitr invidunt. Takimata clita sadipscing eos et sadipscing sed sed et, rebum gubergren stet duo sit tempor dolore lorem, consetetur ipsum dolores dolor diam dolores accusam sea et kasd, clita no sed.
+    </div>
+    
+    <a href="#" class="tooltip">facebook
+      <span class="toolplace">
+        this is a social media
+      </>
+    </a>
+    
+
+</body>
+</html>

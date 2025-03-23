@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        img{
+            max-width: 200px;
+            height: auto;
+            border: 5px solid black;
+            display: block;
+            margin: 0 auto;
+            margin-top: 100px;
+            border-radius: 50%;
+            animation-name: img-anim;
+            animation-duration: 3s;
+            position: relative;
+            animation-iteration-count: 3;
+            
+           
+        }
+
+    
+        
+        @keyframes img-anim {
+            0%{
+                top:0;
+                left:0;
+            }
+            50%{
+                top:100px
+                left:0;
+            }
+            100%{
+                top:100px;
+                left
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <img src="IMG_7899-01.jpeg" alt="">
+</body>
+</html>
